@@ -129,49 +129,48 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
     <MenuContext.Provider value={{ linkComponent }}>
       <Wrapper>
         <nav className="header-nav flex items-center justify-between relative"
-          style={{display: "flex", alignItems: "center", justifyContent: "space-between", maxWidth: "1200px", margin: "auto", padding: "20px"}}
+          style={{ display: "flex", alignItems: "center", justifyContent: "space-between", maxWidth: "1200px", margin: "auto", padding: "20px" }}
         >
           <div className="header-logo">
             <Link href="/" className="flex items-center flex-shrink-0">
-              <img src="/assets/images/brand-logo.png" alt="header-logo" style={{cursor: "pointer"}}/>
+              <img src="/assets/images/brand-logo.png" alt="header-logo" style={{ cursor: "pointer" }} />
             </Link>
           </div>
           <div className="flex-grow lg:flex lg:items-center lg:w-auto">
-            <ul style={{listStyle: "none"}} className="toggle-menu-class justify-end bg-image-menu bg-transparent shadow lg:shadow-none absolute lg:relative inset-x-0 hidden lg:flex lg:flex-grow items-center mt-10 lg:mt-0">
+            <ul style={{ listStyle: "none" }} className="toggle-menu-class justify-end bg-image-menu bg-transparent shadow lg:shadow-none absolute lg:relative inset-x-0 hidden lg:flex lg:flex-grow items-center mt-10 lg:mt-0">
               <li className="relative list-none">
-                <a
+                <span
                   className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
-                  href="/"
                 >
                   {" "}
                   Proposals
-                </a>
+                </span>
               </li>
               <li className="relative">
-              <Link href="/how-it-works">
-                <a
-                  className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
-                >
-                  How It Works
-                </a>
+                <Link href="/how-it-works">
+                  <span
+                    className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                  >
+                    How It Works
+                  </span>
                 </Link>
               </li>
               <li className="relative">
                 <Link href={"/voting/proposal/list"}>
-                <a
-                  className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
-                >
-                  Create a Proposal
-                </a>
+                  <span
+                    className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                  >
+                    Create a Proposal
+                  </span>
                 </Link>
               </li>
               <li className="relative">
                 <Link href={"/voting/proposal/create"}>
-                <a
-                  className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
-                >
-                  Become a Voter
-                </a>
+                  <span
+                    className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                  >
+                    Become a Voter
+                  </span>
                 </Link>
               </li>
               <li className="relative">

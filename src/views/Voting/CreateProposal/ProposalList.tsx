@@ -5,7 +5,6 @@ import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import { Proposals } from '../components/Proposals'
 // import  { Dashboard } from './components/Dashboard'
-import Dashboard from '../components/Dashboard'
 
 const Chrome = styled.div`
   flex: none;

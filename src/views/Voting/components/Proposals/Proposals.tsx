@@ -1,4 +1,3 @@
-import { Box, Breadcrumbs, Card, Flex, Heading, Text } from '@pancakeswap/uikit'
 import Link from 'next/link'
 import { useTranslation } from '@pancakeswap/localization'
 import Container from 'components/Layout/Container'
@@ -53,16 +52,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" >
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span>Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -76,16 +75,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4">
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span>Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -99,16 +98,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4">
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span >Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -122,16 +121,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" >
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span>Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -145,16 +144,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" >
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span>Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -168,16 +167,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4">
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span >Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -191,16 +190,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" >
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span >Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -214,16 +213,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" >
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span >Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>
@@ -237,16 +236,16 @@ const Proposals = () => {
             <div className="w-full relative z-40">
               <div className="flex items-start justify-between mb-6">
                 <h5 className="title text-2xl font-normal">iLearn - a Blockchain Enabled Educational Platform</h5>
-                <button className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
+                <button type="button" className="text-xs bg-white/[.1] py-1.5 px-4 rounded-full">Closed</button>
               </div>
               <ul className="meta-data flex items-center mb-4">
                 <li className="border-r border-coolGray-400 mr-3 pr-3">
-                  <a className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" href="#">
+                  <span className="button-gradient text-coolGray-300 text-sm rounded-full py-1 px-4" >
                     Education
-                  </a>
+                  </span>
                 </li>
                 <li>
-                  <a href="#">Voting Period: 10/25/2022 - 11/1/2022</a>
+                  <span >Voting Period: 10/25/2022 - 11/1/2022</span>
                 </li>
               </ul>
               <p>

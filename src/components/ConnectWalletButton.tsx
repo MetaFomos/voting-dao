@@ -21,7 +21,7 @@ const ConnectWalletButton = ({ children, ...props }: ButtonProps) => {
     // <Button onClick={handleClick} {...props}>
     //   {children || <Trans>Connect Wallet</Trans>}
     // </Button>
-    <button onClick={handleClick} className='button block button-gradient border-2 border-white ml-3 px-3 py-3 text-coolGray-200 text-lg font-bold rounded-full shadow transition duration-500'>
+    <button type="button" onClick={handleClick} className='button block button-gradient border-2 border-white ml-3 px-3 py-3 text-coolGray-200 text-lg font-bold rounded-full shadow transition duration-500'>
       {children || <Trans>Connect Wallet</Trans>}
     </button>
   )

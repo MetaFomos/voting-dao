@@ -43,10 +43,10 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" /> */}
           <link rel="shortcut icon" href="assets/images/favicon.png" type="images/x-icon" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
           <link
-              href="https://fonts.googleapis.com/css2?family=Radley&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700&family=Sansita:wght@400;700;800&display=swap"
-              rel="stylesheet" />
+            href="https://fonts.googleapis.com/css2?family=Radley&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700&family=Sansita:wght@400;700;800&display=swap"
+            rel="stylesheet" />
           <link rel="stylesheet" href="/assets/css/tailwind.min.css" />
           <link rel="stylesheet" href="/assets/css/aos.css" />
           <link rel="stylesheet" href="/assets/css/custom.css" />
@@ -65,9 +65,9 @@ class MyDocument extends Document {
           <div id="portal-root" />
         </body>
         <footer>
-          <script src="/assets/js/jquery.min.js"></script>
-          <script src="/assets/js/aos.js"></script>
-          <script src="/assets/js/app.js"></script>
+          <script src="/assets/js/jquery.min.js" />
+          <script src="/assets/js/aos.js" />
+          <script src="/assets/js/app.js" />
         </footer>
       </Html>
     )

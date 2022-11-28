@@ -40,7 +40,6 @@ import { combineDateAndTime, getFormErrors } from './helpers'
 import { FormState } from './types'
 import { ADMINS, PANCAKE_SPACE, VOTE_THRESHOLD } from '../config'
 import VoteDetailsModal from '../components/VoteDetailsModal'
-import Footer from '../components/Footer'
 
 const EasyMde = dynamic(() => import('components/EasyMde'), {
   ssr: false,
