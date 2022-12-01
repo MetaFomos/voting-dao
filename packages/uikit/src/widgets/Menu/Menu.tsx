@@ -141,6 +141,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
               <li className="relative list-none">
                 <span
                   className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                  style={{cursor: "pointer"}}
                 >
                   {" "}
                   Proposals
@@ -150,6 +151,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
                 <Link href="/how-it-works">
                   <span
                     className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                    style={{cursor: "pointer"}}
                   >
                     How It Works
                   </span>
@@ -159,6 +161,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
                 <Link href={"/voting/proposal/list"}>
                   <span
                     className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                    style={{cursor: "pointer"}}
                   >
                     Create a Proposal
                   </span>
@@ -168,6 +171,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
                 <Link href={"/voting/proposal/create"}>
                   <span
                     className="block m-4 py-2 text-coolGray-200 text-lg font-bold transition duration-500"
+                    style={{cursor: "pointer"}}
                   >
                     Become a Voter
                   </span>
