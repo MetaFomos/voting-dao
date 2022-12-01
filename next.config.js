@@ -38,11 +38,11 @@ const config = {
   },
   experimental: {
     scrollRestoration: true,
-    images: {
-      allowFutureImage: true,
-    },
+    // images: {
+    //   allowFutureImage: true,
+    // },
   },
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
   images: {
     domains: ['static-nft.pancakeswap.com'],
